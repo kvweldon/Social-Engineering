@@ -36,7 +36,36 @@ A client is concerned about their susceptibility to soical engineering attacks a
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/f76e43d3-1ba8-4a83-870a-e13c83874dbd)
 
+**<p style="font-size: 15px;">Step 2: Be an email phishing victim.</p>**
+
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/fd19e601-ec5c-40f8-b62c-4ad7f3636010)
+
+![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/1644ef0d-62fd-4d6c-b5d4-f9a23f777c1f)
+
+![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/bf215076-64b0-4d0d-86d9-131a0e52aba6)
+
+![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/6211cdee-8de4-430e-9462-4a398a0f1467)
+
+![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/106d59d9-9d6d-4b2b-bcc5-ab06170cda6a)
+
+![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/b400bc8f-27cd-466e-9369-dbd78afc615a)
+
+**<p style="font-size: 15px;">Step 3: Exploit the victim through the established reverse shell.</p>**
+
+
+![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/8609ea96-2803-4c3b-a8c8-56ebb50cac80)
+
+![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/2bc88330-06b7-49ba-9da6-238e17309aae)
+
+![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/820cd5d7-42c8-4d00-8b76-567811e7b096)
+
+![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/446b7b5e-5850-4de6-bb11-29b87db9c47e)
+
+![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/40cbf292-9331-45a8-a771-9b39d12571ba)
+
+![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/748d2725-a798-40a6-a4fa-c32ead80d01f)
+
+
 
 
 
