@@ -10,6 +10,8 @@ I first elevated the terminal to root privileges so that I could use the full su
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/625997d5-43f3-4dbe-82d2-e03f22a0b118)
 
+Here you can see the opening screen of SET, 
+
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/9cebeacb-d061-444b-83ef-ddca58fd486e)
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/d0604227-83c6-43ab-ac2d-1dfce58f7d64)
