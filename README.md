@@ -26,7 +26,7 @@ Once generated, SET will launch the MSFconsole and begin the listening session.
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/50204f4b-42d8-41ad-98e7-297b8263c63c)
 
-![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/78abd8e4-b51f-4acd-b0f2-bda3c9f87a16)
+I then started a new Terminal window and elevated it to use root privileges using the "sudo su" command. This is necessary because SET locks into waiting for a connection once the listener was launched. I then moved to the .set directory of the root directory to zip the payload.exe into a file located in the rood directory of the Kali web server using the command "zip /var/www/html/acctupd.zip payload.exe". Performing zip operation while in the same directory as the executable ensures the zip file does not contain sub-directories.  
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/cf3cdefa-839e-47a9-be3b-2e880b07b4be)
 
