@@ -32,16 +32,6 @@ I then started a new Terminal window and elevated it to use root privileges usin
 
 Once back in SET I utilized the Mass Mailer Attack to begin the email spoofing process. As mentioned earlier, Mass Mailer gives an attacker the ability to send multiple emails at once or to a single email address. For this lab I sent the payload to a single email address, jaime@structureality.com. This attack will not utilize Gmail, therefore option 2 is selected. The attack uses the spoofed email address of, support@structurealty.com, to mask as a the Support Department sending a high priority email about an Important Account Update. The HTML format is used, and the email instructs the recipient to download, extract and run the update file in the link which will have the reverse shell payload embedded in it.  
 
-
-
-
-
-![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/c1f2aeb7-b985-40fe-b25a-59d6814595e2)
-
-![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/3ad3d8ec-34db-4858-a668-45436fcacd8d)
-
-![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/5757f0b7-b293-49eb-9071-4b2d52b92d19)
-
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/f76e43d3-1ba8-4a83-870a-e13c83874dbd)
 
 **<p style="font-size: 15px;">Step 2: Be an email phishing victim.</p>**
