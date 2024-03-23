@@ -18,6 +18,7 @@ SET gives attackers 10 types of attacks to utilize. To create a spear phishing m
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/ec4aa23b-aa78-4b6d-a8f8-10ffb6b1629d)
 
+Below I have used the Create a Payload and Listener option to create a Windows Reverse_TCP Meterpreter. 
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/ca7dd9ca-784a-4a76-b47f-e4747b36f35c)
 
