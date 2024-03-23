@@ -32,9 +32,9 @@ I then started a new Terminal window and elevated it to use root privileges usin
 
 
 
-![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/e601be86-0411-44af-8f19-68ffe71ffe12)
 
-![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/39150620-b4b8-4541-99a1-608bdf6fe3b7)
+
+
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/c1f2aeb7-b985-40fe-b25a-59d6814595e2)
 
