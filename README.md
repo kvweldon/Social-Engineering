@@ -18,7 +18,7 @@ SET gives attackers 10 types of attacks to utilize. To create a spear phishing m
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/ec4aa23b-aa78-4b6d-a8f8-10ffb6b1629d)
 
-Below I have used the Create a Payload and Listener option to create a Windows Reverse_TCP Meterpreter. This will create a revers shell that will listen on port 443 for the IP address of 203.0.113.66, the "attacker" IP address on the Kali Linux VM. When the payload is generated and saved as the file /root/.set/payload.exe. 
+Below I have used the Create a Payload and Listener option to create a Windows Reverse_TCP Meterpreter. This will create a reverse shell that will listen on port 443 of the IP address of 203.0.113.66, the "attacker" IP address on the Kali Linux VM. When the payload is generated it is saved as the file /root/.set/payload.exe. 
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/ca7dd9ca-784a-4a76-b47f-e4747b36f35c)
 
@@ -36,30 +36,40 @@ Once back in SET I utilized the Mass Mailer Attack to begin the email spoofing p
 
 **<p style="font-size: 15px;">Step 2: Be an email phishing victim.</p>**
 
+This section is a proof of concept to show how the phishing attack would work. I assume the role of Jaime receiving the spoofed email, believing it is a legitimate email from Structureality Support Department. Below I have opened the Microsoft Virtual Machine to display the desktop of Jaime's computer.
+
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/fd19e601-ec5c-40f8-b62c-4ad7f3636010)
+
+Below shows the email sent from the spoofed email.   
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/1644ef0d-62fd-4d6c-b5d4-f9a23f777c1f)
 
+I seleceted the email to open the email and an alert warning that the email is a scan pops up. As I am assuming the role of Jaime who believes this is a legitimate email, I select yes.
+
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/bf215076-64b0-4d0d-86d9-131a0e52aba6)
+
+The link opens Firefox and the file is downloaded as shown in the picture below. 
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/6211cdee-8de4-430e-9462-4a398a0f1467)
 
+I select Run on the security warning. 
+
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/106d59d9-9d6d-4b2b-bcc5-ab06170cda6a)
+
+From the victim's perspective, nothing will seem to have happened when the payload.exe is executed. However, the reverse shell has been created from the victim's system to the attacker's system. 
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/b400bc8f-27cd-466e-9369-dbd78afc615a)
 
 **<p style="font-size: 15px;">Step 3: Exploit the victim through the established reverse shell.</p>**
 
+In the final step, I have returned back as the attacker on the Linux system. The MSF6 prompt now shows a Meterpreter session opened from 203.0.113.66, the attacker's system, on port 443 to 203.0.113.1, the "public" IP address of Structureality's network, on port 55419. Since the victim is inside the private network of Structureality, the first "public" IP address is displayed as the connect remote host. This session is being relayed by the edge device, usually a firewall which is true in this case, to "Jaime's" internal system. Most firewalls block inbound connection attempts to internal systems which is why tricking a user to into initiating a reverse shell, which causes the internal system to initiate an outbound connection to the attacker, is often necessary.  
 
-![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/8609ea96-2803-4c3b-a8c8-56ebb50cac80)
+I entered "sessions" to view the list of current sessions on MSF6 and then entered "-i 1" to connect to the established session. "sysinfo" is entered to view information about Jaime's compromised system which the attacker is now connected to. 
 
-![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/2bc88330-06b7-49ba-9da6-238e17309aae)
-
-![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/820cd5d7-42c8-4d00-8b76-567811e7b096)
-
-![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/446b7b5e-5850-4de6-bb11-29b87db9c47e)
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/40cbf292-9331-45a8-a771-9b39d12571ba)
+
+I entered "help" to show a list of other commands that can now be used through meterpreter against the victim systems. 
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/748d2725-a798-40a6-a4fa-c32ead80d01f)
 
