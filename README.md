@@ -6,6 +6,8 @@ A client is concerned about their susceptibility to soical engineering attacks a
 
 **<p style="font-size: 15px;">Step 1: Create a Spear Phishing Message.</p>**
 
+I first elevated the terminal to root privileges so that I could use the full suite of tools in the Social Engineering Toolkit(SET) and then launched SET by entering "setoolkit".
+
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/625997d5-43f3-4dbe-82d2-e03f22a0b118)
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/9cebeacb-d061-444b-83ef-ddca58fd486e)
