@@ -30,7 +30,7 @@ I then started a new Terminal window and elevated it to use root privileges usin
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/cf3cdefa-839e-47a9-be3b-2e880b07b4be)
 
-
+Once back in SET I utilized the Mass Mailer Attack to begin the email spoofing process. 
 
 
 
