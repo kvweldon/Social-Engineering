@@ -10,11 +10,11 @@ I first elevated the terminal to root privileges so that I could use the full su
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/625997d5-43f3-4dbe-82d2-e03f22a0b118)
 
-Here you can see the opening screen of SET, 
+Here you can see the opening screen of SET. There are 6 options to choose from the initial menu, but I only needed the first option, Social-Engineering Attacks. 
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/9cebeacb-d061-444b-83ef-ddca58fd486e)
 
-![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/d0604227-83c6-43ab-ac2d-1dfce58f7d64)
+SET gives attackers 10 types of attacks to utilize. To create a spear phishing message I will use option 5 and option 4. Option 5, Mass Mailer Attack, can be used to send an email to one email or a group from an imported list. Option 4 is used to create the payload that will be sent in the email.
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/ec4aa23b-aa78-4b6d-a8f8-10ffb6b1629d)
 
