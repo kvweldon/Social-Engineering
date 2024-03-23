@@ -26,11 +26,11 @@ Once generated, SET will launch the MSFconsole and begin the listening session.
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/50204f4b-42d8-41ad-98e7-297b8263c63c)
 
-I then started a new Terminal window and elevated it to use root privileges using the "sudo su" command. This is necessary because SET locks into waiting for a connection once the listener was launched. I then moved to the .set directory of the root directory to zip the payload.exe into a file located in the rood directory of the Kali web server using the command "zip /var/www/html/acctupd.zip payload.exe". Performing zip operation while in the same directory as the executable ensures the zip file does not contain sub-directories.  
+I then started a new Terminal window and elevated it to use root privileges using the "sudo su" command. This is necessary because SET locks into waiting for a connection once the listener was launched. I then moved to the .set directory of the root directory to zip the payload.exe into a file located in the rood directory of the Kali web server using the command "zip /var/www/html/acctupd.zip payload.exe". Performing zip operation while in the same directory as the executable ensures the zip file does not contain sub-directories. I then started the pre-installed Apached web server to so that I can a create the download link for the attack later on.  
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/cf3cdefa-839e-47a9-be3b-2e880b07b4be)
 
-Once back in SET I utilized the Mass Mailer Attack to begin the email spoofing process. 
+Once back in SET I utilized the Mass Mailer Attack to begin the email spoofing process. As mentioned earlier, Mass Mailer gives an attacker the ability to send multiple emails at once or to a single email address. For this lab I sent the payload to a single email address, jaime@structureality.com. This attack will not utilize Gmail, therefore option 2 is selected. The attack uses the spoofed email address of, support@structurealty.com, to mask as a the Support Department sending a high priority email about an Important Account Update. The HTML format is used, and the email instructs the recipient to download, extract and run the update file in the link which will have the reverse shell payload embedded in it.  
 
 
 
