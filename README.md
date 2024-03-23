@@ -18,9 +18,11 @@ SET gives attackers 10 types of attacks to utilize. To create a spear phishing m
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/ec4aa23b-aa78-4b6d-a8f8-10ffb6b1629d)
 
-Below I have used the Create a Payload and Listener option to create a Windows Reverse_TCP Meterpreter. 
+Below I have used the Create a Payload and Listener option to create a Windows Reverse_TCP Meterpreter. This will create a revers shell that will listen on port 443 for the IP address of 203.0.113.66, the "attacker" IP address on the Kali Linux VM. When the payload is generated and saved as the file /root/.set/payload.exe. 
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/ca7dd9ca-784a-4a76-b47f-e4747b36f35c)
+
+Once generated, SET will launch the MSFconsole and begin the listening session. 
 
 ![image](https://github.com/kvweldon/Social-Engineering/assets/141193154/50204f4b-42d8-41ad-98e7-297b8263c63c)
 
